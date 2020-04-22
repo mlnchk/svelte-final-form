@@ -1,5 +1,5 @@
 {
-  "name": "SvelteComponent",
+  "name": "svelte-final-form",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -9,12 +9,17 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^6.0.0",
+    "final-form": "^4.19.1",
     "rollup": "^1.20.0",
     "rollup-plugin-svelte": "^5.0.0",
     "svelte": "^3.0.0"
   },
+  "peerDependencies": {
+    "final-form": "^4.19.0"
+  },
   "keywords": [
-    "svelte"
+    "svelte",
+    "final-form"
   ],
   "files": [
     "src",
