@@ -9,6 +9,4 @@
   })
 </script>
 
-<form {...$$restProps} on:submit|preventDefault={form.submit}>
-  <slot {form}></slot>
-</form>
+<slot {form} handleSubmit={form.submit}></slot>
